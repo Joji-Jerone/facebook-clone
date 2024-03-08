@@ -1,0 +1,65 @@
+.Container{
+    display: grid;
+    justify-content: center;
+    margin-top: 10%;
+
+}
+.Container-card{
+padding: 5%;
+gap: 2rem;
+}
+.Container-card p{
+    margin: 0px !important;
+}
+.Container-card h1{
+    margin: 0px !important;
+    }
+
+.Name{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 5%;
+}
+.Mailpassword{
+    display: grid;
+    gap: 1rem;
+}
+.Gender{
+    font-size: small;
+    margin-bottom: 1px;
+
+}
+.bordered-radio{
+    border:1px solid #C4C4C4;
+    border-radius: 2px;
+    gap:1rem;
+    padding-left: 15px;
+
+}
+
+a{
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+  }
+  .Terms{
+    color: #777777;
+    font-size: small;
+  }
+  .SignUp{
+  text-align: center;
+    color: #6A9E5E;
+  }
+  
+button:active{
+    color: #6A9E5E;
+transform: scale(0.90);
+}
+  .DOB{
+    margin: 0px 20px !important;
+    display: flex;
+    gap: 1rem;
+    padding: 10px;
+  }
+  

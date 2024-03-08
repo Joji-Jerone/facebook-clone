@@ -1,0 +1,46 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    gap: 5rem;
+}
+.Info{
+    align-items:flex-start;
+   
+    padding: 4rem 0;
+    width: 40vw;
+   
+}
+.Head1{
+    color: #0867FE;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 !important;
+
+}
+.Head2{
+    color: #1C1F20;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 !important;
+
+
+}
+.Container-card{
+    display: grid;
+    padding: 15px;
+    gap: 10px;
+    /* justify-content: center; */
+}
+.Link{
+    margin: 0px 6rem;
+
+}
+.Divider{
+    margin: 15px;
+}
+.TextField{
+    margin: 0px 5px 10px 5px;
+    width: 100%;
+    /* padding: 5px; */
+}
